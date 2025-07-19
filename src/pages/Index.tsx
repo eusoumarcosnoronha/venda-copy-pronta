@@ -173,8 +173,8 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img 
-                src="/lovable-uploads/39b358ac-0124-4500-8b55-f739a06e2911.png" 
-                alt="Confeiteira usando técnica visual para preparar brigadeiro"
+                src="/lovable-uploads/d19a778f-fcee-44c8-94c7-8dcd95512899.png" 
+                alt="Técnica de mexer o brigadeiro"
                 className="rounded-2xl shadow-card w-full"
               />
             </div>
@@ -194,8 +194,8 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <img 
-              src="/lovable-uploads/d19a778f-fcee-44c8-94c7-8dcd95512899.png" 
-              alt="Técnica de mexer o brigadeiro"
+              src="/lovable-uploads/39b358ac-0124-4500-8b55-f739a06e2911.png" 
+              alt="Confeiteira usando técnica visual para preparar brigadeiro"
               className="rounded-xl shadow-card w-full h-48 object-cover"
             />
             <img 
