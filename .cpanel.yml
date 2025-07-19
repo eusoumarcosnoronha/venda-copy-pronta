@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -R * /home/chefeh7421/spp.bawalescoladeconfeitaria.com.br/
