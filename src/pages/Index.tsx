@@ -210,7 +210,7 @@ const Index = () => {
               className="rounded-xl shadow-card w-full h-48 object-cover"
             />
             <img 
-              src="/lovable-uploads/48ac293c-8583-4553-b31c-20a622d2afe5.png" 
+              src="/lovable-uploads/8e2a4930-8057-4edf-b707-18c3df4941e6.png" 
               alt="Brigadeiros premium finalizados"
               className="rounded-xl shadow-card w-full h-48 object-cover md:col-span-2 lg:col-span-1"
             />
