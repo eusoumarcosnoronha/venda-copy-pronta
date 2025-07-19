@@ -227,34 +227,6 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="bg-muted border-primary/20">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
-                        <Star className="w-6 h-6 text-primary fill-current" />
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <h4 className="font-semibold">{testimonial.name}</h4>
-                        {testimonial.verified && (
-                          <Badge variant="secondary" className="text-xs">
-                            <CheckCircle className="w-3 h-3 mr-1" />
-                            Verificado
-                          </Badge>
-                        )}
-                      </div>
-                      <p className="text-muted-foreground italic">"{testimonial.text}"</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
           <div className="grid md:grid-cols-2 gap-8">
             <img 
               src="/lovable-uploads/608d0d33-e76a-4dc2-9ab0-8c9b86ac1dce.png" 
@@ -267,6 +239,7 @@ const Index = () => {
               className="rounded-xl shadow-card w-full"
             />
           </div>
+
         </div>
       </section>
 
@@ -448,7 +421,59 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Testimonials Final Section */}
+      <section className="py-20 px-4 bg-card">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center space-y-6 mb-16">
+            <Badge className="bg-primary/20 text-primary border-primary/30">
+              💬 Depoimentos Reais
+            </Badge>
+            <h2 className="text-3xl lg:text-4xl font-bold">
+              O Que Nossas <span className="text-primary">Alunas Dizem</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {testimonials.map((testimonial, index) => (
+              <Card key={index} className="bg-muted border-primary/20">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0">
+                      <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                        <Star className="w-6 h-6 text-primary fill-current" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <h4 className="font-semibold">{testimonial.name}</h4>
+                        {testimonial.verified && (
+                          <Badge variant="secondary" className="text-xs">
+                            <CheckCircle className="w-3 h-3 mr-1" />
+                            Verificado
+                          </Badge>
+                        )}
+                      </div>
+                      <p className="text-muted-foreground italic">"{testimonial.text}"</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Button 
+              onClick={handleCTAClick}
+              variant="cta" 
+              size="xl"
+              className="animate-pulse text-xl font-bold py-8 px-12"
+            >
+              🚀 LIBERAR ACESSO IMEDIATO
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <footer className="py-8 px-4 bg-muted border-t border-border">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground">
