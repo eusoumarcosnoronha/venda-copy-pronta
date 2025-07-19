@@ -85,7 +85,7 @@ const Index = () => {
                 alt="Confeiteiros profissionais preparando brigadeiros"
                 className="rounded-2xl shadow-card w-full"
               />
-              <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-xl shadow-card border border-border">
+              <div className="absolute -bottom-12 -left-6 bg-card p-4 rounded-xl shadow-card border border-border">
                 <div className="flex items-center gap-3">
                   <Users className="w-8 h-8 text-primary" />
                   <div>
