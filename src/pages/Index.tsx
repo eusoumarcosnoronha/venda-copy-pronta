@@ -5,7 +5,7 @@ import { CheckCircle, Clock, Shield, Star, Users, Award } from "lucide-react";
 
 const Index = () => {
   const handleCTAClick = () => {
-    window.open("https://pay.hotmart.com/B100385069F?checkoutMode=10", "_blank");
+    window.open("https://pay.hotmart.com/B100385069F?checkoutMode=10&split=12", "_blank");
   };
 
   const testimonials = [
