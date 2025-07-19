@@ -353,6 +353,8 @@ const Index = () => {
             ⏰ Oferta válida por tempo limitado
           </p>
         </div>
+      </section>
+
       {/* Guarantee Section */}
       <section className="py-20 px-4 bg-card">
         <div className="max-w-4xl mx-auto text-center">
