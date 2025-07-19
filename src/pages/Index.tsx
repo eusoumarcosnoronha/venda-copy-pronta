@@ -466,7 +466,7 @@ const Index = () => {
               onClick={handleCTAClick}
               variant="cta" 
               size="xl"
-              className="animate-pulse text-xl font-bold py-8 px-12"
+              className="animate-pulse text-lg sm:text-xl font-bold py-6 px-8 sm:py-8 sm:px-12 w-full sm:w-auto"
             >
               🚀 LIBERAR ACESSO IMEDIATO
             </Button>
