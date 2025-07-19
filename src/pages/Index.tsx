@@ -327,8 +327,7 @@ const Index = () => {
             🔥 Oferta Limitada
           </Badge>
           <h2 className="text-3xl lg:text-4xl font-bold">
-            De <span className="line-through text-muted-foreground">R$147</span> por apenas{" "}
-            <span className="text-primary">R$97</span>
+            De <span className="line-through text-muted-foreground">R$147</span> por apenas
           </h2>
           
           <Card className="bg-gradient-accent border-primary/30 max-w-md mx-auto">
@@ -338,9 +337,10 @@ const Index = () => {
                 <p className="text-muted-foreground">Acesso por 1 ano</p>
               </div>
               
-              <div className="space-y-2">
-                <div className="text-4xl font-bold text-primary">R$97</div>
-                <p className="text-sm text-muted-foreground">ou em até 12x no cartão</p>
+              <div className="space-y-3">
+                <div className="text-5xl font-bold text-primary">12x R$12,93</div>
+                <p className="text-lg font-semibold">ou R$96 à vista</p>
+                <p className="text-sm text-muted-foreground">no cartão de crédito</p>
               </div>
 
               <ul className="space-y-2 text-sm">
