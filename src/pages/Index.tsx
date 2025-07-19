@@ -180,7 +180,6 @@ const Index = () => {
             </div>
             <div className="space-y-6">
               <h3 className="text-2xl font-bold">🍫 O Segredo do Ponto Perfeito</h3>
-              <p className="text-muted-foreground">Um curso pensado para quem:</p>
               <ul className="space-y-3">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
