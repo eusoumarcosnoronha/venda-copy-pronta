@@ -55,14 +55,14 @@ const Index = () => {
         <div className="relative max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <div className="flex justify-center lg:justify-start mb-6">
+              <div className="flex justify-center lg:justify-start mb-3">
                 <img 
-                  src="/lovable-uploads/2e2480d6-561a-4252-bafc-6cb6df5635e9.png" 
+                  src="/lovable-uploads/8ba8efbb-9814-4b26-864d-b22e31a9b295.png" 
                   alt="Bawale Academy Logo"
                   className="h-12 object-contain"
                 />
               </div>
-              <Badge className="bg-primary/20 text-primary border-primary/30 mb-4">
+              <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">
                 🎯 Método Exclusivo
               </Badge>
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight">
