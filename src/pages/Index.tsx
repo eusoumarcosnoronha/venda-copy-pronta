@@ -5,7 +5,7 @@ import { CheckCircle, Clock, Shield, Star, Users, Award } from "lucide-react";
 
 const Index = () => {
   const handleCTAClick = () => {
-    window.open("https://sun.eduzz.com/Q9NDB63P01", "_blank");
+    window.open("https://pay.hotmart.com/B100385069F?checkoutMode=10", "_blank");
   };
 
   const testimonials = [
@@ -55,6 +55,13 @@ const Index = () => {
         <div className="relative max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
+              <div className="flex justify-center lg:justify-start mb-6">
+                <img 
+                  src="/lovable-uploads/2e2480d6-561a-4252-bafc-6cb6df5635e9.png" 
+                  alt="Bawale Academy Logo"
+                  className="h-12 object-contain"
+                />
+              </div>
               <Badge className="bg-primary/20 text-primary border-primary/30 mb-4">
                 🎯 Método Exclusivo
               </Badge>
