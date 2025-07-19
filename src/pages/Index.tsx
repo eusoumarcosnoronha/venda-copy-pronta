@@ -414,7 +414,7 @@ const Index = () => {
             onClick={handleCTAClick}
             variant="outline" 
             size="xl"
-            className="bg-white text-primary hover:bg-white/90 border-white text-xl font-bold py-8 px-12 shadow-2xl"
+            className="bg-white text-primary hover:bg-white/90 border-white text-lg sm:text-xl font-bold py-6 px-8 sm:py-8 sm:px-12 shadow-2xl w-full sm:w-auto"
           >
             🚀 FAZER MINHA ESCOLHA AGORA
           </Button>
