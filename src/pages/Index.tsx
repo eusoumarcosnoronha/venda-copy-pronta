@@ -58,34 +58,26 @@ const Index = () => {
               <Badge className="bg-primary/20 text-primary border-primary/30 mb-4">
                 🎯 Método Exclusivo
               </Badge>
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight">
                 Nunca mais erre o <span className="text-primary">ponto do brigadeiro</span>
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
                 Aprenda o método visual que transforma leite condensado em lucro – mesmo que você esteja começando do zero!
               </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <div className="flex items-center gap-2 text-primary">
                   <CheckCircle className="w-5 h-5" />
-                  <span>Sem frustração</span>
+                  <span className="text-sm sm:text-base">Sem frustração</span>
                 </div>
                 <div className="flex items-center gap-2 text-primary">
                   <CheckCircle className="w-5 h-5" />
-                  <span>Sem desperdício</span>
+                  <span className="text-sm sm:text-base">Sem desperdício</span>
                 </div>
                 <div className="flex items-center gap-2 text-primary">
                   <CheckCircle className="w-5 h-5" />
-                  <span>Resultados garantidos</span>
+                  <span className="text-sm sm:text-base">Resultados garantidos</span>
                 </div>
               </div>
-              <Button 
-                onClick={handleCTAClick}
-                variant="cta" 
-                size="xl"
-                className="w-full lg:w-auto animate-pulse"
-              >
-                🍫 QUERO APRENDER O MÉTODO AGORA
-              </Button>
             </div>
             <div className="relative">
               <img 
