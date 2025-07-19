@@ -295,37 +295,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Guarantee Section */}
-      <section className="py-20 px-4 bg-card">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-success/10 border border-success/20 rounded-2xl p-8 space-y-6">
-            <div className="w-20 h-20 bg-success/20 rounded-full flex items-center justify-center mx-auto">
-              <Shield className="w-10 h-10 text-success" />
-            </div>
-            <h2 className="text-3xl font-bold">Garantia Incondicional</h2>
-            <p className="text-xl text-muted-foreground">
-              Teste o curso por 7 dias. Se não funcionar para você, devolvemos 100% do seu dinheiro.
-            </p>
-            <div className="grid md:grid-cols-3 gap-6 mt-8">
-              <div className="text-center">
-                <Clock className="w-8 h-8 text-success mx-auto mb-2" />
-                <h4 className="font-semibold">7 Dias</h4>
-                <p className="text-sm text-muted-foreground">Para testar</p>
-              </div>
-              <div className="text-center">
-                <CheckCircle className="w-8 h-8 text-success mx-auto mb-2" />
-                <h4 className="font-semibold">Sem Perguntas</h4>
-                <p className="text-sm text-muted-foreground">Processo simples</p>
-              </div>
-              <div className="text-center">
-                <Award className="w-8 h-8 text-success mx-auto mb-2" />
-                <h4 className="font-semibold">100% Seguro</h4>
-                <p className="text-sm text-muted-foreground">Risco zero</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Pricing Section */}
       <section className="py-20 px-4">
@@ -383,6 +352,36 @@ const Index = () => {
           <p className="text-sm text-muted-foreground">
             ⏰ Oferta válida por tempo limitado
           </p>
+        </div>
+      {/* Guarantee Section */}
+      <section className="py-20 px-4 bg-card">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="bg-success/10 border border-success/20 rounded-2xl p-8 space-y-6">
+            <div className="w-20 h-20 bg-success/20 rounded-full flex items-center justify-center mx-auto">
+              <Shield className="w-10 h-10 text-success" />
+            </div>
+            <h2 className="text-3xl font-bold">Garantia Incondicional</h2>
+            <p className="text-xl text-muted-foreground">
+              Teste o curso por 7 dias. Se não funcionar para você, devolvemos 100% do seu dinheiro.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 mt-8">
+              <div className="text-center">
+                <Clock className="w-8 h-8 text-success mx-auto mb-2" />
+                <h4 className="font-semibold">7 Dias</h4>
+                <p className="text-sm text-muted-foreground">Para testar</p>
+              </div>
+              <div className="text-center">
+                <CheckCircle className="w-8 h-8 text-success mx-auto mb-2" />
+                <h4 className="font-semibold">Sem Perguntas</h4>
+                <p className="text-sm text-muted-foreground">Processo simples</p>
+              </div>
+              <div className="text-center">
+                <Award className="w-8 h-8 text-success mx-auto mb-2" />
+                <h4 className="font-semibold">100% Seguro</h4>
+                <p className="text-sm text-muted-foreground">Risco zero</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
