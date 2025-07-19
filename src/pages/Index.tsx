@@ -314,7 +314,7 @@ const Index = () => {
               </div>
               
               <div className="space-y-3">
-                <div className="text-5xl font-bold text-primary">12x R$12,93</div>
+                <div className="text-5xl font-bold text-primary">12 x R$9,93</div>
                 <p className="text-lg font-semibold">ou R$96 à vista</p>
                 <p className="text-sm text-muted-foreground">no cartão de crédito</p>
               </div>
